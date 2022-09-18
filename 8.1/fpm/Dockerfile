@@ -15,6 +15,7 @@ RUN apk add --no-cache \
     ca-certificates \
     freetype \
     gettext \
+    git \
     icu-libs \
     icu-data-full \
     imagemagick \
@@ -39,7 +40,6 @@ RUN apk add --no-cache --virtual .build-deps \
     freetype-dev \
     gcc \
     gettext-dev \
-    git \
     icu-dev \
     imagemagick-dev \
     libc-dev \
