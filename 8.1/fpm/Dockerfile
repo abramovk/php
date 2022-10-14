@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 php:8.1.10-fpm-alpine3.16
+FROM --platform=linux/amd64 php:8.2.0RC3-fpm-alpine3.16
 
 LABEL Maintainer="Kirill Abramov <i@abramovk.ru>" \
       "GitHub Link"="https://github.com/abramovk/php" \
